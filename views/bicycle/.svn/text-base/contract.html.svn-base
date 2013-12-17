@@ -1,0 +1,36 @@
+<style type="text/css">
+  .modal-body img{
+    max-width: 520px;
+  }
+</style>
+<div id="contract" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <h3 id="myModalLabel">用户协议</h3>
+  </div>
+  <div class="modal-body">
+    <h4>东城</h4>
+    <img src="/img/bicycle/dongchengService.jpg">
+    <a href="/bicycle/download?filename=dongcheng_service.doc">东城协议</a>
+    <h4>朝阳</h4>
+    <img src="/img/bicycle/chaoyangService.jpg">
+    <a href="/bicycle/download?filename=chaoyang_service.doc">朝阳协议</a>
+    <h4>丰台</h4>
+    <img src="/img/bicycle/fengtaiService.jpg">
+    <a href="/bicycle/download?filename=fengtai_service.doc">丰台协议</a>
+    <h4>石景山</h4>
+    <img src="/img/bicycle/shijingshanService.jpg">
+    <a href="/bicycle/download?filename=shijingshan_service.doc">石景山协议</a>
+    <h4>亦庄</h4>
+    <img src="/img/bicycle/yizhuangService.jpg">
+    <a href="/bicycle/download?filename=yizhuang_service.doc">亦庄协议</a>
+    <h4>大兴</h4>
+    <img src="/img/bicycle/daxingService.jpg">
+    <a href="/bicycle/download?filename=daxing_service.doc">大兴协议</a>
+    <h4>通州</h4>
+    <img src="/img/bicycle/tongzhouService.jpg">
+    <a href="/bicycle/download?filename=tongzhou_service.doc">通州协议</a>
+  </div>
+  <div class="modal-footer">
+    <button class="pure-button  pure-button-primary" data-dismiss="modal" aria-hidden="true">确定</button>
+  </div>
+</div>

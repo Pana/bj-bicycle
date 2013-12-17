@@ -1,0 +1,30 @@
+<!-- 办理流程 -->
+  <div id="opencard" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <h3 id="myModalLabel">办理流程</h3>
+    </div>
+    <div class="modal-body">
+      <h4>城六区</h4>
+      <img src="/img/bicycle/bk.jpg">
+      <h4>亦庄</h4>
+      <p>
+        1. 出示登记有效证件；<br/>
+        2. 缴纳押金；<br/>
+        3. 签署《公共自行车租赁服务合约》；<br/>
+        4. 领取租车卡。
+      </p>
+      <h4>大兴</h4>
+      <p>
+        1. 出示登记有效证件；<br/>
+        2. 缴纳押金；<br/>
+        3. 领取租车卡。
+      </p>
+      <h4>通州</h4>
+      <p>
+        居民持本人二代身份证到办卡点，首先要阅读并填写“通州区公共自行车实名租车卡申请表”， 然后办卡人员会核实用户身份证信息，符合条件后，即可办理“公共自行车租赁卡”，居民交付300元押金后，并需交付首次充值不少于30元的充值费，待充值成功后，“公共自行车租赁卡”既办卡完成；当时居民就可以进行租车业务的使用。整个办卡流程开始到结束，用时大概在3分钟左右。
+      </p>
+    </div>
+    <div class="modal-footer">
+      <button class="pure-button  pure-button-primary" data-dismiss="modal" aria-hidden="true">确定</button>
+    </div>
+  </div>

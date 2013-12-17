@@ -1,0 +1,58 @@
+html{height:100%}  
+    body{
+        height:100%;margin:0px;padding:0px;
+        color: #5eb95e;
+    }
+
+    #container{height:100%} 
+
+    .clear{clear: both;}
+
+    .pure-menu.custom{
+        position: absolute;
+        background-color: #2d2d2d;
+        filter:alpha(opacity=90); /*IE*/
+        -moz-opacity:0.9; /*MOZ , FF*/
+        opacity:0.9; /*CSS3, FF1.5*/
+        text-align: center;
+        padding-top:8px;
+        padding-bottom: 8px; 
+    }
+
+    .pure-menu a, .pure-menu .pure-menu-can-have-children>li:after{
+        color: #5eb95e;
+    }
+
+    .pure-menu li a:hover, .pure-menu li a:focus{
+        color: #1f8dd6;
+    }
+
+    .amap-marker img{
+        height: 36px;
+        width: 22px;
+    }
+
+    .custom a{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display:inline-block;
+        position:absolute;
+        line-height: 16px;
+    }
+
+    #author{
+        right:5px;
+    }
+
+    #sidr-trigger{
+        left:-10px;
+        margin-top: -4px;
+    }
+    #sidr-trigger img{
+        background-color: #5eb95e;
+    }
+
+    #sidr ul li a, .sidr ul li span{
+        color: #5eb95e;
+    }
+

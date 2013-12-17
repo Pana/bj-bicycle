@@ -1,0 +1,10 @@
+blue:  #1f8dd6 #0e90d2 
+purple: rgb(128, 88, 165)
+green: #5eb95e
+red:  #dd514c
+orange: rgb(243, 123, 29)
+yellow: rgb(250, 210, 50)
+
+
+
+marker pics: http://www.clker.com/

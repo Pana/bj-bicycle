@@ -1,0 +1,44 @@
+<!-- 租车流程 -->
+<div id="rent_return" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <h3 id="myModalLabel">租还流程</h3>
+  </div>
+  <div class="modal-body">
+    <h4>城六区</h4>
+      <img src="/img/bicycle/zh.jpg">
+    <h4>亦庄</h4>
+    <p>
+      1. 借车
+    　　(1) 先在刷卡面板处刷卡；<br/>
+    　　(2) 听到语音提示“刷卡成功请取车”后，即可取车；<br/>
+    　　(3) 取车后指示灯灭，租车成功。
+    </p>
+    <p>
+      2. 还车
+    　　(1) 将自行车推入空车桩，车锁关闭；<br/>
+    　　(2) 语音提示“车已到位，请刷卡确认”，将会员卡在刷卡区刷卡进行验证，成功后会有语音提示“还车成功，请取卡”；<br/>
+    　　(3) 指示灯灭，还车成功。
+    </p>
+    <h4>大兴</h4>
+      <p>
+        1. 借车<br/>
+      　　(1) 将借车卡平放在公共自行车锁止器刷卡区上刷卡；<br/>
+      　　(2) 听到语音提示“请取车”后，在20秒内将车拉出，即借车成功；<br/>
+      　　(3) 将借车卡平放在公共自行车锁止器刷卡区上刷卡。
+      </p>
+      <p>
+        2. 还车<br/>
+      　　(1) 先将公共自行车推入锁车器；<br/>
+      　　(2) 将借车卡平放在刷卡区域内5秒左右；<br/>
+      　　(3) 听到语音提示“车已还好，请取卡”后，将卡收回，即还车成功。
+      </p>
+    <h4>通州</h4>
+    <img src="/img/bicycle/tzzc.jpg">
+    <p>租车者须在30秒内将车推出，脱离锁止器，否则将被重新锁上。公共自行车租用起始时间，从租车者成功借出车辆开始自动计时。</p>
+    <img src="/img/bicycle/tzhc.jpg">
+    <p>刷卡后，系统停止计时，并完成收费结算。如用户还车后未刷卡即行离开，所还车辆会在30秒后自行锁止，会造成租车卡暂停使用，需在机柜POS机上进行异常卡处理后，才能正常使用。用户离开前应检查所还车辆是否被锁止器锁上。</p>
+  </div>
+  <div class="modal-footer">
+    <button class="pure-button  pure-button-primary" data-dismiss="modal" aria-hidden="true">确定</button>
+  </div>
+</div>

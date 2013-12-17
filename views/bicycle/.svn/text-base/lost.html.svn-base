@@ -1,0 +1,36 @@
+<div id="lost" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <h3 id="myModalLabel">挂失流程</h3>
+  </div>
+  <div class="modal-body">
+    <h4>城六区</h4>
+    <img src="/img/bicycle/gs.jpg">
+    <h4>亦庄</h4>
+    <p>会员卡如丢失，请及时拨打4008-900-111或18211169971进行挂失，挂失24小时后，方可带有效证件到办卡点办理补卡。(注：挂失后1小时之前产生的损失由客户自行承担）</p>
+    <h4>大兴</h4>
+    <p>
+      1. 挂失<br/>
+      (1) 遗失后立即致电010-69260208，核对办卡人相关信息后，立即对卡进行口头挂失；<br/>
+      (2) 口头挂失后，请在7天内带上身份证原件到管理中心正式挂失；<br/>
+      (3) 挂失期间找回，可拨打010-69260208，取消挂失。
+    </p>
+    <p>
+      2. 补办<br/>
+      (1) 原借车人办理挂失手续后，到管理中心填写补办登记表；<br/>
+      (2) 缴纳25元补卡费用；<br/>
+      (3) 补办新卡后，原卡上的信息及余额自动转移到新账户上。
+    </p>
+    <h4>通州</h4>
+    <p>
+      1. 公共自行车遗失<br/>
+      自行车遗失后立即致电服务热线（010-81518757），核对持卡人相关信息后，进行挂失，等待工作人员电话通知办理相关手续。自行车遗失需照原价赔偿。
+    </p>
+    <p>
+      2. 租车卡遗失或损坏<br/>
+      租车卡遗失后请立即致电服务热线，核对持卡人相关信息后，进行挂失。重新补办租车卡需交10元工本费。
+    </p>
+  </div>
+  <div class="modal-footer">
+    <button class="pure-button  pure-button-primary" data-dismiss="modal" aria-hidden="true">确定</button>
+  </div>
+</div>

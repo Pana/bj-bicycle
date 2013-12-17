@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <meta name='keywords' content="北京 公共自行车 绿色交通 bicycle Public bicycle in beijing pana 健康 环保">
+        <meta name='description' content='北京公共自行车是北京市政府提供的便民绿色交通项目, 目前在北京六个区有近四百个借车点'>
+        <meta name='author' content="Pana">
+        <meta name='robots' content="all">
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <meta name="viewport" content="initial-scale=1.0,user-scalable=no"> 
+        <meta name="baidu-site-verification" content="aiDPvRfVyV" />
+        <link rel="shortcut icon" href="/img/bicycle/favi.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="/libs/css/pure-min.css">
+        <link rel="stylesheet" type="text/css" href="/libs/css/modal.css">
+        <link rel="stylesheet" type="text/css" href="/css/bicycle.css">
+        <link rel="stylesheet" type="text/css" href="/libs/sidr/stylesheets/jquery.sidr.dark.css">
+        <script type="text/javascript" src="/libs/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.2&key=7f0a442337ca9fa23e25d5429acba3f9"></script>
+        <script type="text/javascript" src="/libs/bootstrap-modal.js"></script>
+        <script type="text/javascript" src="/libs/sidr/jquery.sidr.min.js"></script>
+        <script type="text/javascript" src="/js/bicycle/data.js"></script>
+        <script type="text/javascript" src="/libs/async.js"></script>
+    </head>
+    <body>
+
+      <!-- 导航条 -->
+      <div class="pure-menu pure-menu-open pure-menu-horizontal custom">
+        <a id='sidr-trigger' href="#"><img src="/img/bicycle/menu2.png" height='25' width='25'></a>
+        <span>北京公共自行车</span>
+        <a id='author' href="mailto:pana.wang@outlook.com"><span>Coded by Pana</span></a>
+      </div>
+
+      <!-- 侧导航 -->
+      <div id="sidr">
+        <ul>
+          <li><a class='modal_trigger' href="#slogan">简单介绍</a></li>
+          <li><a class='modal_trigger' href="#precondition">办理条件</a></li>
+          <li><a class='modal_trigger' href="#opencard">办理流程</a></li>
+          <li><a class='modal_trigger' href="#rent_return">租还流程</a></li>
+          <li><a class='modal_trigger' href="#fees">收费标准</a></li>
+          <li><a class='modal_trigger' href="#return_card">退卡流程</a></li>
+          <li><a class='modal_trigger' href="#lost">挂失流程</a></li>
+          <li><a class='modal_trigger' href="#rent_time">租车时间</a></li>
+          <li><a class='modal_trigger' href="#contract">用户协议</a></li>
+          <li><a class='modal_trigger' href="#contacts">联系方式</a></li>
+          <li>
+            <a href="#">友情链接</a>
+            <ul>
+              <li><a href="http://www.bjysj.gov.cn/bjggzxc/Home_index_1_1.html" target='_blank'>官方网站</a></li>
+              <li><a href="https://play.google.com/store/apps/details?id=com.beijingbikerqzk&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5iZWlqaW5nYmlrZXJxemsiXQ.." target='_blank'>手机App</a></li>
+              <li><a href="http://beijingbiker.com" target='_blank'>Beijingbiker</a></li>
+            </ul>
+          </li>
+          <li><a class='modal_trigger' href="#about">关于本站</a></li>
+        </ul>
+      </div>
+
+
+      <!-- 地图容器 -->
+      <div id="container"></div>
+
+      <!-- Modals -->
+      <div id='modals'>
+        <% include precondition.html %>
+        <% include opencard.html %>
+        <% include rent_return.html %>
+        <% include fees.html %>
+        <% include return_card.html %>
+        <% include lost.html %>
+        <% include rent_time.html %>
+        <% include contract.html %>
+        <% include contacts.html %>
+        <% include slogan.html %>
+        <% include about.html %>
+      </div>
+  
+
+      <!-- 地图操作js -->
+      <script type="text/javascript" src='/js/bicycle/opMap.js'></script> 
+      <script>
+        $(document).ready(function() {
+          $('#sidr-trigger').sidr();
+          var shown = '';
+          var modals = [
+            '#slogan',
+            '#return_card',
+            '#rent_time',
+            '#rent_return',
+            '#precondition',
+            '#opencard',
+            '#lost',
+            '#fees',
+            '#contract',
+            '#contacts',
+            '#about'
+          ];
+          function close(){
+            console.log('hello');
+            shown = '';
+          }
+          modals.forEach(function(item){
+            $(item).on('hide', close);
+          });
+          // 
+          $(".modal_trigger").bind('click', function(e){
+            e.preventDefault();
+            var $this = $(this), id = $this.attr("href");
+            if(shown == id) return;
+            if(shown) $(shown).modal('hide');
+            $(id).modal('show');
+            shown = id;
+          });
+        });
+      </script>
+      <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-42371651-1', 'duapp.com');
+          ga('send', 'pageview');
+        </script>
+    </body>
+</html>

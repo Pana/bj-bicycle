@@ -1,0 +1,28 @@
+<!--还卡-->
+  <div id="return_card" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <h3 id="myModalLabel">退卡流程</h3>
+    </div>
+    <div class="modal-body">
+      <h4>城六区</h4>
+      <img src="/img/bicycle/tk.jpg">
+      <h4>亦庄</h4>
+      <p>
+        退卡前请确认您的自行车已经归还，卡为空闲状态，卡主携带本人二代居民身份证或护照、卡片和办卡协议书到办卡点办理退卡手续，如需他人代办，还需带代办人的二代居民身份证或护照。
+      </p>
+      <h4>大兴</h4>
+      <p>
+        办卡后24小时内不得退卡，24小时之后，首先电话预约，预约成功后可带上身份证、借车卡，凭收据退卡。第一次办卡免工本费，如市民退卡后，第二次办卡受取工本费25元。
+      </p>
+      <h4>通州</h4>
+      <p>
+        1. 持本人二代身份证等有效证件、租车卡及办卡时所开的收据到服务中心办理。<br>
+        2. 核对信息后注销租车功能。<br>
+        3. 退还诚信保证金及卡内剩余资金。<br>
+        4. 还卡时，若卡人为损坏扣除10元工本费。
+      </p>
+    </div>
+    <div class="modal-footer">
+      <button class="pure-button  pure-button-primary" data-dismiss="modal" aria-hidden="true">确定</button>
+    </div>
+  </div>

@@ -1,0 +1,21 @@
+<!-- fees -->
+  <div id="about" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <h3 id="myModalLabel">关于本站</h3>
+    </div>
+    <div class="modal-body">
+      <img src="/img/bicycle/pic/5646160.jpg">
+      <p>本站对北京北京六个区三百多个公共自行车存取点位置在高德地图上进行了标注，所标存放点位置皆来自于官方网站，未经实地考察，难免略有偏差，请见谅。</p>
+      <h4>可优化空间</h4>
+      <ul>
+        <li>完善数据: 补充遗漏借车点, 精确借车点经纬度</li>
+        <li>优化移动端使用体验</li>
+        <li>获取借车点实时车辆数据(较困难)</li>
+        <li>优化使用体验</li>
+      </ul>
+      <h4>有更好的想法, 发送邮件到 pana.wang@outlook.com</h4>
+    </div>
+    <div class="modal-footer">
+      <button class="pure-button  pure-button-primary" data-dismiss="modal" aria-hidden="true">确定</button>
+    </div>
+  </div>

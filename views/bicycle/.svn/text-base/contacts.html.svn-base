@@ -1,0 +1,72 @@
+<div id="contacts" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <h3 id="myModalLabel">联系方式</h3>
+  </div>
+  <div class="modal-body">
+    <h4>租车服务电话</h4>
+    <p>
+      东城、丰台、石景山：400-157-7157<br/>
+      朝阳：400-088-7806<br/>
+      亦庄：400-890-0111<br/>
+      大兴：010-69260208<br/>
+      通州：010-81518757
+    </p>
+    <h4>具体联系方式</h4>
+    <p>
+      东城区<br/>
+      运营商：北京市燕鸿洲存车管理处<br/>
+      联系地址：北京市东城区东打磨厂街汇泉大厦二层<br/>
+      联系电话：400-1577-157<br/>
+      投诉电话：400-1577-157<br/>
+      电子邮箱：ggzxc2012@yahoo.cn
+    </p>
+    <p>
+      朝阳区<br/>
+      运营商：长城金点定位测控（北京）有限公司<br/>
+      联系地址：北京市东城区和平里北街6号院3号楼4层<br/>
+      联系电话：400-0887-806<br/>
+      投诉电话：400-0887-806<br/>
+      电子邮箱：chaoyangbike@goldenetbj.cn
+    </p>
+    <p>
+      丰台区<br/>
+      运营商：北京市丰台区市政工程公司<br/>
+      联系电话：400-1577-157<br/>
+      投诉电话：400-1577-157<br/>
+      电子邮箱：et_dongenbo@163.com
+    </p>
+    <p>
+      石景山<br/>
+      运营商：北京石景安停车管理中心<br/>
+      联系地址：北京市石景山区苹果园地铁存车处<br/>
+      联系电话：400-157-7157
+    </p>
+    <p>
+      亦庄<br/>
+      运营商：北京绿畅公共自行车服务有限公司<br/>
+      联系地址：北京市经济技术开发区永昌北路三号永昌商务中心三层<br/>
+      联系电话：400-8900-111<br/>
+      投诉电话：18211169971<br/>
+      电子邮箱：shayatouqian@163.com
+    </p>
+    <p>
+      大兴<br/>
+      运营商：北京安顺隆华停车管理服务有限公司<br/>
+      联系地址：北京印刷学院北门对面T6停车场院内<br/>
+      联系电话：010-69260208<br/>
+      投诉电话：010-69250607<br/>
+      电子邮箱：dxggzxc@163.com
+    </p>
+    <p>
+      通州<br/>
+      运营商：通州区公共自行车服务中心<br/>
+      联系地址：通州区梨园城铁站C口以东100米，城铁高架桥下灰色平房院内<br/>
+      联系电话：010-81518757<br/>
+      投诉电话：010-81518757<br/>
+      电子邮箱：gonggongzixingche@163.com
+    </p>
+  </div>
+  <div class="modal-footer">
+    <button class="pure-button  pure-button-primary" data-dismiss="modal" aria-hidden="true">确定</button>
+  </div>
+</div>

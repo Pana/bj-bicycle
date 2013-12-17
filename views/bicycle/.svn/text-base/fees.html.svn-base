@@ -1,0 +1,21 @@
+<!-- fees -->
+  <div id="fees" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <h3 id="myModalLabel">收费标准</h3>
+    </div>
+    <div class="modal-body">
+      <h4>城六区</h4>
+      <p>第一小时内免费租用；1小时以上，每小时按1元收费（不足一小时的按1小时计算）；租赁每日（自然日）最高收费10元。租车卡不支持透支。
+　　卡内余额不足1元，系统不支持租车。还车时如果卡内余额不足，允许还车，先扣除剩余金额，同时在卡片上标记为还车欠费状态，下次租车前先充值后扣除欠费金额才能再次租车。</p>
+      <h4>亦庄</h4>
+      <p>第1小时免费，第2小时到第3小时之间收取1元，第3小时到第4小时之间收取2元，以此类推，从租车计算，第一个24小时收费20元封顶。如仍未还车，循环收费。</p>
+      <h4>大兴</h4>
+      <p>使用1小时内免费，2小时以内收费1元，3小时以内收费2元，超过3小时按每小时3元收费，第一个24小时收费20元封顶。</p>
+      <h4>通州</h4>
+      <p>第一小时内免费租用；1小时以上，每小时按1元收费（不足一小时的按1小时计算）；租赁每日（自然日）最高收费10元。租车卡不支持透支。<br/>
+　　卡内余额不足1元，系统不支持租车。还车时如果卡内余额不足，允许还车，先扣除剩余金额，同时在卡片上标记为还车欠费状态，下次租车前先充值后扣除欠费金额才能再次租车</p>
+    </div>
+    <div class="modal-footer">
+      <button class="pure-button  pure-button-primary" data-dismiss="modal" aria-hidden="true">确定</button>
+    </div>
+  </div>
